@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="416dp"
+            android:layout_height="556dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="157dp"
+            tools:layout_editor_absoluteY="2dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="367dp"
+                android:layout_height="49dp">
+
+                <TextView
+                    android:id="@+id/user"
+                    android:layout_width="199dp"
+                    android:layout_height="40dp"
+                    tools:layout_editor_absoluteX="4dp"
+                    tools:layout_editor_absoluteY="4dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="97dp"
+                android:layout_height="40dp"
+                android:text="Formulario"
+                tools:layout_editor_absoluteX="122dp"
+                tools:layout_editor_absoluteY="136dp" />
+
+            <EditText
+                android:id="@+id/cedula"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:hint="Cedula" />
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:hint="Nombre" />
+
+            <EditText
+                android:id="@+id/tel"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:hint="Telefono" />
+
+            <EditText
+                android:id="@+id/correo"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:hint="E-mail" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="384dp"
+                android:layout_height="74dp">
+
+                <TableRow
+                    android:layout_width="303dp"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteX="65dp"
+                    tools:layout_editor_absoluteY="0dp">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:text="Volver" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="147dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="enviar"
+                        android:text="Enviar" />
+                </TableRow>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

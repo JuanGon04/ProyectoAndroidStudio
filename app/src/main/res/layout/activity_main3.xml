@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity3">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="279dp"
+            android:layout_height="260dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="79dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registro"
+                android:textAlignment="center"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="52dp"
+                tools:layout_editor_absoluteY="35dp" />
+
+            <TextView
+                android:id="@+id/cedula"
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:text="Cedula"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="101dp" />
+
+            <TextView
+                android:id="@+id/setcedula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="118dp" />
+
+            <TextView
+                android:id="@+id/Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre:"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="154dp" />
+
+            <TextView
+                android:id="@+id/setnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <TextView
+                android:id="@+id/telefono"
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:text="Telefono:"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="137dp" />
+
+            <TextView
+                android:id="@+id/setele"
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:text=" "
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <TextView
+                android:id="@+id/correo"
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:text="Correo"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="31dp"
+                tools:layout_editor_absoluteY="209dp" />
+
+            <TextView
+                android:id="@+id/setemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="82dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:onClick="volver"
+                android:text="Volver" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
